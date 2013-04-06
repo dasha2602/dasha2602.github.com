@@ -1,0 +1,169 @@
+/*------ fonts ------*/
+@font-face {
+	font-family: PTSerif;
+	src: url("../fonts/PTSerifWeb/PTF55F_W.ttf");
+    src: url("../fonts/PTSerifWeb/PTF55F_W.eot") format("eot"),
+         url("../fonts/PTSerifWeb/PTF55F_W.svg") format("svg"),
+         url("../fonts/PTSerifWeb/PTF55F_W.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: PTSerif;
+	src: url("../fonts/PTSerifWeb/PTF75F_W.ttf");
+    src: url("../fonts/PTSerifWeb/PTF75F_W.eot") format("eot"),
+         url("../fonts/PTSerifWeb/PTF75F_W.svg") format("svg"),
+         url("../fonts/PTSerifWeb/PTF75F_W.woff") format("woff");
+    font-weight: normal;
+	font-weight: bold;
+}
+@font-face {
+	font-family: PTSans;
+	src: url("../fonts/PTSansWeb/PTS55F_W.ttf");
+    src: url("../fonts/PTSansWeb/PTS55F_W.eot") format("eot"),
+         url("../fonts/PTSansWeb/PTS55F_W.svg") format("svg"),
+         url("../fonts/PTSansWeb/PTS55F_W.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: PTSans;
+	src: url("../fonts/PTSansWeb/PTS75F_W.ttf");
+    src: url("../fonts/PTSansWeb/PTS75F_W.eot") format("eot"),
+         url("../fonts/PTSansWeb/PTS75F_W.svg") format("svg"),
+         url("../fonts/PTSansWeb/PTS75F_W.woff") format("woff");
+    font-weight: normal;
+	font-weight: bold;
+}
+/*-----------------------------------------*/
+body {
+	background: url(../images/fon.png);
+	font: normal 14px PTSans, sans-serif;
+}
+.head-left {
+	font-weight: bold;
+	font-size: 24px;
+	letter-spacing: 0.25em;
+	padding: 16px 0 0 10px;
+	float: left;
+}
+.head-right {
+	float: right;
+	padding: 20px 11px 0 0;
+}
+header a {
+	text-decoration: none;
+	display: inline-block; 
+    border-bottom:1px dashed #666666; 
+    color: #666666;
+}
+header a:hover {
+    border-bottom-style:none;
+}
+#dark {
+	visibility: hidden;
+	z-index: 1;
+	background-color: #000000;
+    height: 100%;
+    left: 0;
+    opacity: 0.3;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#login {
+	width: 368px;
+	height: 230px;
+	display: none;
+	background: #FFFFFF;
+	position: absolute;
+	z-index: 3;
+	top: 50%;
+	left: 50%; 
+	margin-top: -115px; 
+	margin-left: -184px; 
+}
+form {
+	padding-top: 57px;
+	padding-left: 65px;
+}
+input[type="text"] {
+	color: #666666;
+	width: 241px;
+	margin-bottom: 19px;
+}
+.control {
+	margin-top: 5px;
+}
+#submit {
+	float: left;
+	margin-right: 15px;
+}
+/*--------------- article ----------------*/
+.content {
+	width: 841px;
+	margin: 0 auto;
+}
+.title {
+	padding: 105px 0 0 290px;
+}
+.main {
+	font: bold 72px PTSerif;
+	line-height: 1em;
+}
+.list {
+	font-size: 18px;
+	margin-top: 0;
+	padding-top: 28px;
+	padding-bottom: 113px;
+	padding-left: 5px;
+}
+.list li {
+	display:inline-block; 
+}
+.news {
+	height: 152px;
+}
+.news2 {
+	height: 177px;
+}
+.news-left {
+	width: 220px;
+	float: left;
+	height: inherit;
+}
+.image {
+	padding-top: 10px;
+	float: right;
+}
+.marker {
+	position: absolute;
+}
+.news-right {
+	float: right;
+	width: 601px;
+	padding-top: 10px;
+}
+.news-right a {
+	font-size: 18px;
+	font-weight: bold;
+	color: #000000;
+	display: inline
+}
+.news-right a:hover {
+    text-decoration: none;
+}
+/*-------------- footer -----------------*/
+footer.content {
+	padding-top: 134px;
+	padding-bottom: 82px;
+	color: #8f8f8f;
+}
+.line {
+	border-top:1px  solid;
+	padding-bottom: 15px;
+}
+.sign {
+	font-size: 12px;
+}

@@ -1,0 +1,82 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Lorem</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="head-left">LOREM IPSUM NEWS</div>
+		<div class="head-right">
+			<a href="#" onclick="getElementById('login').style.display='block'; 
+			getElementById('dark').style.visibility='visible'; return false;">Войти</a>
+		</div>
+		<div id="login" >
+			<form action="#" method="post">
+				<input type="text" name="first" value="Логин" >
+				<input type="text" name="second" value="Пароль">
+				<div class="control">
+					<input type="submit" name="submit" id="submit" value="Войти">
+					<a href="#" onclick="getElementById('login').style.display = 'none'; 
+					getElementById('dark').style.visibility = 'hidden'; return false;">Отмена</a>
+				</div>	
+			</form>
+		</div>
+		<div id="dark"></div>
+	</header>
+	<article class="content">
+		<div class="title">
+			<div class="main">Новости</div>
+			<ul class="list">
+				<li class="item1">скандалы</li>
+				<li class="item2">&#8226 интриги</li>
+				<li class="item3">&#8226 расследования</li>
+			</ul>
+		</div>
+		<div class="news">
+			<div class="news-left">
+				<div class="marker"><img src="images/pic4.png" alt="Скандал"></div>
+				<div class="image">
+					<img src="images/pic1.jpg" alt="Google">
+				</div>
+				
+			</div>
+			<div class="news-right">
+				<a href="#">Страны Евросоюза могут ввести санкции против Google</a>
+				<p>Европейские власти обеспокоены политикой конфиденциальности компании Google. Google хранит личные данные пользователей в одном профиле, в котором может объединяться информация с нескольких десятков разных сайтов.
+				</p>
+			</div>
+		</div>
+		<div class="news2">
+			<div class="news-left">
+				<div class="image">
+					<img src="images/pic2.jpg" alt="ФАС">
+				</div>
+				<div class="marker"><img src="images/pic5.png" alt="Интрига"></div>
+			</div>
+			<div class="news-right">
+				<a href="#">ФАС уличила ВГТРК в рекламе алкоголя при трансляции футбольного матча</a>
+				<p>Проверка фотографий и видео-записей показала, что на рекламных стендах стадиона "Стэмфорд Бридж" во время указанного матча не были размещены рекламные плакаты данных производителей алкогольной продукции. Рассмотрение данного дела ФАС России назначил на 15 мая 2013 года.</p>
+			</div>
+		</div>
+		<div class="news">
+			<div class="news-left">
+				<div class="image">
+					<img src="images/pic3.jpg" alt="Домен">
+				</div>
+				<div class="marker"><img src="images/pic6.png" alt="Расследование"></div>
+			</div>
+			<div class="news-right">
+				<a href="#">Возобновление борьбы за домены в зоне .рф маловероятно, считают юристы</a>
+				<p>"По всем 70914 доменным именам поступили заявки от клиентов, желающих их приобрести в указанном порядке", - говорится в тексте судебного решения от 16 ноября 2011 г. Апелляционная инстанция частично удовлетворила иск ФАС, а кассационная передала дело на рассмотрение в президиум ВАС.</p>
+			</div>
+		</div>
+	</article>
+	<footer class="content">
+		<div class="line"></div>
+		<div class="sign">&#169 ЗАО «Лорем ипсум ньюс»</div>
+	</footer>
+	
+</body>
+</html>
