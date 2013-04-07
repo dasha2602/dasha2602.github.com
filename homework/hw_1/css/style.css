@@ -106,7 +106,8 @@ input[type="text"] {
 	margin: 0 auto;
 }
 .title {
-	padding: 105px 0 0 290px;
+	text-align: center;
+	padding-top: 105px;
 }
 .main {
 	font: bold 72px PTSerif;
