@@ -28,6 +28,15 @@
 }
 @font-face {
 	font-family: PTSans;
+	src: url("../fonts/PTSansWeb/PTS56F_W.eot"); 
+    src: url("../fonts/PTSansWeb/PTS56F_W.ttf") format("truetype"),
+         url("../fonts/PTSansWeb/PTS56F_W.svg#PTSans-Regular") format("svg"),
+         url("../fonts/PTSansWeb/PTS56F_W.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+	font-family: PTSans;
 	src: url("../fonts/PTSansWeb/PTS75F_W.eot");
     src: url("../fonts/PTSansWeb/PTS75F_W.ttf") format("truetype"),
          url("../fonts/PTSansWeb/PTS75F_W.svg#PTSans-Bold") format("svg"),
@@ -45,19 +54,19 @@ body {
 	font-size: 24px;
 	letter-spacing: 0.25em;
 	padding: 16px 0 0 10px;
-	float: left;
+	float: left; 
 }
 .head-right {
 	float: right;
 	padding: 20px 11px 0 0;
 }
-header a {
+body a {
 	text-decoration: none;
 	display: inline-block; 
     border-bottom:1px dashed #666666; 
     color: #666666;
 }
-header a:hover {
+body a:hover {
     border-bottom-style:none;
 }
 #dark {
@@ -71,7 +80,9 @@ header a:hover {
     top: 0;
     width: 100%;
 }
-
+.blur {
+	-webkit-filter:  blur(1px);
+}
 #login {
 	width: 368px;
 	height: 230px;
@@ -88,7 +99,7 @@ form {
 	padding-top: 57px;
 	padding-left: 65px;
 }
-input[type="text"] {
+.field input{
 	color: #666666;
 	width: 241px;
 	margin-bottom: 19px;
@@ -104,6 +115,7 @@ input[type="text"] {
 .content {
 	width: 841px;
 	margin: 0 auto;
+	display: block;
 }
 .title {
 	text-align: center;
@@ -122,9 +134,11 @@ input[type="text"] {
 }
 .list li {
 	display:inline-block; 
+	list-style-type: none;
 }
 .news {
 	height: 152px;
+	margin: 0 auto;
 }
 .news2 {
 	height: 177px;
@@ -132,7 +146,6 @@ input[type="text"] {
 .news-left {
 	width: 220px;
 	float: left;
-	height: inherit;
 }
 .image {
 	padding-top: 10px;
@@ -140,17 +153,44 @@ input[type="text"] {
 }
 .marker {
 	position: absolute;
+	color: #FFFFFF;
+	font-style: italic;
+	text-align: center;
+}
+.marker1 {
+	background: #ff6666;
+	margin: 0px;
+	height: 20px;
+	width: 65px;
+	padding-top: 2px;
+}
+.marker2 {
+	background: #99cc66;
+	margin: 0px;
+	height: 24px;
+	width: 71px;
+	padding-top: 2px;
+}
+.marker3 {
+	background: #6699cc;
+	margin: 0px;
+	height: 23px;
+	width: 110px;
+	padding-top: 3px;
 }
 .news-right {
 	float: right;
 	width: 601px;
 	padding-top: 10px;
+	margin: inherit;
 }
 .news-right a {
 	font-size: 18px;
 	font-weight: bold;
 	color: #000000;
-	display: inline
+	display: inline;
+	text-decoration: underline;
+    border-bottom:none; 
 }
 .news-right a:hover {
     text-decoration: none;
@@ -161,10 +201,8 @@ footer.content {
 	padding-bottom: 82px;
 	color: #8f8f8f;
 }
-.line {
-	border-top:1px  solid;
-	padding-bottom: 15px;
-}
 .sign {
+	border-top:1px  solid;
+	padding-top: 15px;
 	font-size: 12px;
 }
