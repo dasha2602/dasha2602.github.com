@@ -36,7 +36,12 @@
 /*-----------------------------------------*/
 body {
   background: url(../images/fon.png);
-  font: normal 14px PTSans, sans-serif;
+  font: normal 0.875em PTSans, sans-serif;
+  /* 14:16; */
+
+  width: 100%;
+  /*1349px*/
+
 }
 body a {
   text-decoration: none;
@@ -49,7 +54,9 @@ body a:hover {
 }
 .head-left {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 1.71428571429em;
+  /*24:14;*/
+
   letter-spacing: 0.25em;
   padding: 16px 0 0 10px;
   float: left;
@@ -74,28 +81,48 @@ body a:hover {
   -webkit-filter: blur(1px);
 }
 #login {
-  width: 368px;
-  height: 230px;
+  width: 27.279466271%;
+  /*368px:1349px;*/
+
+  /*height: 230px;*/
+
   display: none;
-  background: #ffffff;
+  background: #FFF;
   position: absolute;
   z-index: 3;
   top: 50%;
   left: 50%;
-  margin-top: -115px;
-  margin-left: -184px;
+  margin-top: -8.52483321%;
+  /*115px:1349px;*/
+
+  margin-left: -13.639733136%;
+  /*184px:1349px;*/
+
 }
 form {
-  padding-top: 57px;
-  padding-left: 65px;
+  padding-top: 15.489130435%;
+  /*57px:368px;*/
+
+  padding-left: 17.663043478%;
+  /*65px:368px;*/
+
+  width: 100%;
 }
 .field input {
   color: #666;
-  width: 241px;
-  margin-bottom: 19px;
+  width: 65.489130435%;
+  /*241px:368px;*/
+
+  margin-bottom: 5.163043478%;
+  /*19px:368px;*/
+
 }
 .control {
   margin-top: 5px;
+  margin-bottom: 15.760869565%;
+  /*58px:368px;*/
+
+  overflow: hidden;
 }
 #submit {
   float: left;
@@ -103,28 +130,44 @@ form {
 }
 /*--------------- article ----------------*/
 .content {
-  width: 841px;
+  width: 62.342475908%;
+  /*841px:1349px(100%)*/
+
   margin: 0 auto;
   display: block;
 }
 .title {
   text-align: center;
-  padding-top: 105px;
+  padding-top: 12.485136742%;
+  /*105px:841px;*/
+
 }
 .main {
-  font: bold 72px PTSerif;
+  font: bold 5.14285714286em PTSerif;
+  /*72:14;*/
+
   line-height: 1em;
 }
 h2 {
-  font-size: 24px;
+  font-size: 1.71428571429em;
+  /*24:14;*/
+
   margin-top: -10px;
-  padding-bottom: 55px;
+  padding-bottom: 9.151414309%;
+  /*55px:601px;*/
+
 }
 .list {
-  font-size: 18px;
+  font-size: 1.28571428571em;
+  /*18:14;*/
+
   margin-top: 0;
-  padding-top: 28px;
-  padding-bottom: 113px;
+  padding-top: 3.349282297%;
+  /*28px:836px (ширина .list);*/
+
+  padding-bottom: 13.516746411%;
+  /*113px:836px (ширина .list);*/
+
   padding-left: 5px;
 }
 .list li {
@@ -133,7 +176,9 @@ h2 {
 }
 .top-line-menu {
   margin: 0;
-  padding-bottom: 90px;
+  padding-bottom: 10.701545779%;
+  /*90px:841px;*/
+
   padding-top: 20px;
   margin-left: 181px;
 }
@@ -143,36 +188,67 @@ h2 {
   margin-left: 20px;
 }
 .news {
-  height: 152px;
+  /*height: 152px;*/
+
   margin: 0 auto;
-  width: 841px;
+  width: 100%;
+  /*841px*/
+
+  overflow: hidden;
+  padding-bottom: 4.399524376%;
+  /*37px:841px;*/
+
 }
 .one-news {
-  height: 529px;
+  /*height: 529px;*/
+
   border-bottom: 3px  solid #b1b1b1;
-  margin-left: 41px;
-  width: 800px;
+  margin-left: 4.875148633%;
+  /*41px:841px;*/
+
+  width: 95.124851367%;
+  /*800px:841px;*/
+
+  overflow: hidden;
 }
 .news2 {
-  height: 177px;
+  /*height: 177px;*/
+
+  padding-bottom: 2.497027348%;
+  /*21px:841px;*/
+
 }
 .news3 {
-  padding-bottom: 122px;
+  padding-bottom: 14.506539834%;
+  /*122px:841px;*/
+
 }
 .news-left {
-  width: 220px;
+  width: 26.159334126%;
+  /*220px:841px;*/
+
   float: left;
 }
 .note {
-  margin-top: 123px;
-  width: 179px;
+  margin-top: 15.375%;
+  /*123px:800px*/
+
+  /*margin-top: 123px;*/
+
+  width: 22.375%;
+  /*179px:800px;*/
+
   float: left;
 }
 .note p {
   color: #808080;
-  font-size: 10px;
+  font-size: 0.71428571429em;
+  /*10:14;*/
+
   font-family: Verdana;
-  line-height: 16px;
+  line-height: 1.6em;
+  /*16:10;*/
+
 }
 .image {
   padding-top: 10px;
@@ -183,18 +259,24 @@ h2 {
   color: #ffffff;
   font-style: italic;
   text-align: center;
+  /*width:5.94530321%;*/
+
+  /*width: 4.81%;*/
+
 }
 .marker1 {
   background: #ff6666;
   margin: 0px;
   height: 20px;
   width: 65px;
+  /*width:4.81%; */
+
   padding-top: 2px;
 }
 .marker2 {
   background: #99cc66;
   margin: 0px;
-  height: 24px;
+  height: 23px;
   width: 71px;
   padding-top: 2px;
 }
@@ -205,13 +287,20 @@ h2 {
   width: 110px;
   padding-top: 3px;
 }
+/*.marker1 {background:#ff6666; margin:0px; height:20px; width:65px; padding-top:2px;}
+.marker2 {background:#99cc66; margin:0px; height:24px; width:71px; padding-top:2px;}
+.marker3 {background:#6699cc; margin: 0px; height:23px; width:110px; padding-top:3px;}*/
 .news-right {
   float: right;
-  width: 601px;
+  width: 71.46254459%;
+  /*601px:841px;*/
+
   padding-top: 10px;
 }
 .news-right a {
-  font-size: 18px;
+  font-size: 1.28571428571em;
+  /*18:14;*/
+
   font-weight: bold;
   color: #000000;
   display: inline;
@@ -221,12 +310,22 @@ h2 {
 .news-right a:hover {
   text-decoration: none;
 }
+.news-full {
+  width: 75.125%;
+  /*601px:800px;*/
+
+  padding-bottom: 1.5%;
+  /*12px:800px;*/
+
+}
 .color-links a {
   color: #003366;
   text-decoration: underline;
   border-bottom-style: none;
   display: inline;
-  font-size: 14px;
+  font-size: 1em;
+  /*14:14;*/
+
   font-weight: normal;
 }
 .current a {
@@ -235,30 +334,50 @@ h2 {
   text-decoration: none;
 }
 .other-news {
-  height: 250px;
+  /*height: 250px;*/
+
+  width: 100%;
+  overflow: hidden;
 }
 .designation {
   font-weight: bold;
-  width: 198px;
+  width: 23.543400713%;
+  /*198px:841px;*/
+
   float: left;
-  padding-left: 41px;
+  padding-left: 4.875148633%;
+  /*41px:841px;*/
+
 }
 .designation h4 {
-  width: 116px;
+  width: 58.585858586%;
+  /*116px:198px*/
+
 }
 .news-choice {
   margin-top: 0;
   float: right;
+  width: 70.273483948%;
+  /*591px:841px;*/
+
+  padding-bottom: 14px;
 }
 .rubric {
-  width: 197px;
+  width: 33.333333333%;
+  /*197px:591px;*/
+
   padding-top: 19px;
   display: inline-block;
   margin-bottom: 0;
   float: left;
 }
 .rubric p {
-  font-size: 12px;
+  font-size: 0.85714285714em;
+  /*12:14;*/
+
+}
+img {
+  max-width: 100%;
 }
 .drop-out {
   background: #ffffff;
@@ -285,7 +404,10 @@ h2 {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e5e5e5', GradientType=0);
   /* IE6-9 */
 
-  width: 115px;
+  /*width: 8.52483321%;*/
+
+  /*115px:1349px (ширина экрана);*/
+
   height: 22px;
   border-radius: 10px;
   box-shadow: 1px 2px 4px #b8b8b8;
@@ -333,11 +455,15 @@ li ul {
 }*/
 /*-------------- footer -----------------*/
 footer.content {
-  padding-bottom: 82px;
+  padding-bottom: 6.078576723%;
+  /*82px:1349px(т.к.родителем является окно)*/
+
   color: #8f8f8f;
 }
 .sign {
   border-top: 1px  solid;
   padding-top: 15px;
-  font-size: 12px;
+  font-size: 0.85714285714em;
+  /*12:14;*/
+
 }
