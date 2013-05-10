@@ -1,0 +1,275 @@
+@black: #000;
+@white: #FFF;
+@grey: #666;
+
+/*-----------------------------------------*/
+body {
+	background: url(../images/fon.png);
+	font: normal 14px PTSans, sans-serif;
+	a {
+	    text-decoration: none;
+	    display: inline-block; 
+        border-bottom:1px dashed @grey; 
+        color: @grey;
+        &:hover {border-bottom-style:none;}
+    }
+}
+.head-left {
+	font-weight: bold;
+	font-size: 24px;
+	letter-spacing: 0.25em;
+	padding: 16px 0 0 10px;
+	float: left; 
+}
+.head-right {
+	float: right;
+	padding: 20px 11px 0 0;
+	height: 125px;
+}
+#dark {
+	visibility: hidden;
+	z-index: 1;
+	background-color: @black;
+    height: 100%;
+    left: 0;
+    opacity: 0.3;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.blur {
+	-webkit-filter:  blur(1px);
+}
+#login {
+	width: 368px;
+	height: 230px;
+	display: none;
+	background: @white;
+	position: absolute;
+	z-index: 3;
+	top: 50%;
+	left: 50%; 
+	margin-top: -115px; 
+	margin-left: -184px; 
+}
+form {
+	padding-top: 57px;
+	padding-left: 65px;
+}
+.field {
+    input {
+	    color: #666;
+		width: 241px;
+		margin-bottom: 19px;
+    }
+}
+.control {
+	margin-top: 5px;
+}
+#submit {
+	float: left;
+	margin-right: 15px;
+}
+/*--------------- article ----------------*/
+.content {
+	width: 841px;
+	margin: 0 auto;
+	display: block;
+}
+.title {
+	text-align: center;
+	padding-top: 105px;
+}
+.main {
+	font: bold 72px PTSerif;
+	line-height: 1em;
+}
+h2 {
+	font-size: 24px;
+	margin-top: -10px;
+	padding-bottom: 55px;
+}
+.list {
+	font-size: 18px;
+	margin-top: 0;
+	padding-top: 28px;
+	padding-bottom: 113px;
+	padding-left: 5px;
+	li {
+		display:inline-block; 
+		list-style-type: none;
+    }
+} 
+.top-line-menu {
+	margin: 0;
+	padding-bottom: 90px;
+	padding-top: 20px;
+	margin-left: 181px;
+	li {
+		display:inline-block; 
+		list-style-type: none;
+		margin-left: 20px;
+ 	}
+}
+.news {
+	height: 152px;
+	margin: 0 auto;
+	width: 841px;
+}
+.one-news {
+	height: 529px;
+	border-bottom: 3px  solid #b1b1b1;
+	margin-left: 41px;
+	width: 800px;
+}
+.news2 {
+	height: 177px;
+}
+.news3 {
+	padding-bottom: 122px;
+}
+.news-left {
+	width: 220px;
+	float: left;
+}
+.note {
+	margin-top: 123px;
+	width: 179px;
+	float: left;
+	p {
+		color: #808080;
+		font-size: 10px;
+		font-family: Verdana;
+		line-height: 16px;
+	}
+}
+.image {
+	padding-top: 10px;
+	float: right;
+}
+.marker {
+	position: absolute;
+	color: @white;
+	font-style: italic;
+	text-align: center;
+}
+.marker1 {background:#ff6666; margin:0px; height:20px; width:65px; padding-top:2px;}
+.marker2 {background:#99cc66; margin:0px; height:24px; width:71px; padding-top:2px;}
+.marker3 {background:#6699cc; margin: 0px; height:23px; width:110px; padding-top:3px;}
+
+.news-right {
+	float: right;
+	width: 601px;
+	padding-top: 10px;
+	a {
+		font-size: 18px;
+		font-weight: bold;
+		color: @black;
+		display: inline;
+		text-decoration: underline;
+   	 	border-bottom:none; 
+   	 	&:hover {text-decoration: none;}
+	}
+}
+.color-links {
+	a {
+		color: #003366;
+		text-decoration: underline;
+		border-bottom-style:none;
+		display: inline;
+		font-size: 14px;
+		font-weight: normal;
+	}
+}
+.current {
+	a {
+		color: @black;
+		font-weight: bold;
+		text-decoration: none;
+	}
+}
+.other-news {
+	height: 250px;
+}
+.designation {
+	font-weight: bold;
+	width: 198px;
+	float: left;
+	padding-left: 41px;
+	h4 {width: 116px;}
+}
+.news-choice {
+	margin-top: 0;
+	float: right;
+}
+.rubric {
+	width: 197px;
+	padding-top: 19px;
+	display: inline-block;
+	margin-bottom: 0;
+	float: left;
+	p {font-size: 12px;}
+}
+.drop-out {
+	background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 12%, rgba(229,229,229,1) 77%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(12%,rgba(255,255,255,1)), color-stop(77%,rgba(229,229,229,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 12%,rgba(229,229,229,1) 77%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 12%,rgba(229,229,229,1) 77%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 12%,rgba(229,229,229,1) 77%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 12%,rgba(229,229,229,1) 77%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+    width: 115px;
+    height: 22px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px #b8b8b8;
+    a {
+		border-bottom-style:none;
+		text-shadow: 2px 1px @white;
+		text-decoration: none;
+		margin-left: 5px;
+		&:before {
+     		content: "\025bc"; /*&#9660;*/} 
+	}
+}
+.submenu {
+	a {&:before {content: none;} }
+	li {
+		a {
+			text-decoration: underline;
+  			padding-top: 5px;
+  			&:hover {color: @black;}
+		}
+	}
+}
+ul.menu {
+	list-style: none; 
+	margin: 0;
+	padding: 0;
+	color: @grey;
+	li.drop-out { 
+		&:hover {height: 105px;}
+	} // unknown - it is true or not
+}
+li {
+	&:hover ul {display: block;}
+	ul {
+		position: absolute; 
+    	display: none;
+    	list-style-type: none;
+    	margin-left: -25px;
+	}
+}
+/**.menu li.drop-out:hover { 
+	height: 105px;
+}*/
+/*-------------- footer -----------------*/
+footer.content {
+	padding-bottom: 82px;
+	color: #8f8f8f;
+}
+.sign {
+	border-top:1px  solid;
+	padding-top: 15px;
+	font-size: 12px;
+}
