@@ -3,6 +3,9 @@
 @grey: #666;
 
 /*-----------------------------------------*/
+html {
+  font-size: 100%; /*шрифт по умолчанию*/
+}
 body {
 	background: url(../images/fon.png);
 	font: normal 0.875em PTSans, sans-serif; /* 14:16; */
@@ -21,6 +24,9 @@ body {
 	letter-spacing: 0.25em;
 	padding: 16px 0 0 10px;
 	float: left; 
+	@media screen and (max-width: 768px) {
+		font-size: 1.28571428571em; /*18:14;*/
+	}
 }
 .head-right {
 	float: right;
@@ -79,6 +85,12 @@ form {
 	width: 62.342475908%; /*841px:1349px(100%)*/
 	margin: 0 auto;
 	display: block;
+	@media screen and (max-width: 768px) {
+		width: 80%; 
+	}
+	@media screen and (max-width: 480px) {
+		width: 90%; 
+	}
 }
 .title {
 	text-align: center;
@@ -87,6 +99,12 @@ form {
 .main {
 	font: bold 5.14285714286em PTSerif; /*72:14;*/
 	line-height: 1em;
+	@media screen and (max-width: 768px) {
+		font-size: 4.14285714286em; /*58:14;*/
+	}
+	@media screen and (max-width: 480px) {
+		font-size: 3.42857142857em; /*48:14;*/
+	}
 }
 h2 {
 	font-size: 1.71428571429em; /*24:14;*/

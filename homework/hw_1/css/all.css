@@ -34,6 +34,11 @@
   font-weight: bold;
 }
 /*-----------------------------------------*/
+html {
+  font-size: 100%;
+  /*шрифт по умолчанию*/
+
+}
 body {
   background: url(../images/fon.png);
   font: normal 0.875em PTSans, sans-serif;
@@ -60,6 +65,13 @@ body a:hover {
   letter-spacing: 0.25em;
   padding: 16px 0 0 10px;
   float: left;
+}
+@media screen and (max-width: 768px) {
+  .head-left {
+    font-size: 1.28571428571em;
+    /*18:14;*/
+  
+  }
 }
 .head-right {
   float: right;
@@ -136,6 +148,16 @@ form {
   margin: 0 auto;
   display: block;
 }
+@media screen and (max-width: 768px) {
+  .content {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .content {
+    width: 90%;
+  }
+}
 .title {
   text-align: center;
   padding-top: 12.485136742%;
@@ -147,6 +169,20 @@ form {
   /*72:14;*/
 
   line-height: 1em;
+}
+@media screen and (max-width: 768px) {
+  .main {
+    font-size: 4.14285714286em;
+    /*58:14;*/
+  
+  }
+}
+@media screen and (max-width: 480px) {
+  .main {
+    font-size: 3.42857142857em;
+    /*48:14;*/
+  
+  }
 }
 h2 {
   font-size: 1.71428571429em;
