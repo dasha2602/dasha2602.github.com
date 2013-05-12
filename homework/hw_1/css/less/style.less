@@ -210,14 +210,17 @@ h2 {
 	}
 }
 @media screen and (max-width: 480px) {
-	.news-right {
-		float: none;
-		width: 800/841*100%;
-	}
-	.note {
-		margin-top: 0;
-		float: none;
-		width: 800/841*100%;
+	.one-news {
+		.news-right {
+			float: none;
+			width: 800/841*100%;
+		}
+		.note {
+			margin-top: 0;
+			float: none;
+			width: 800/841*100%;
+			// display: none;
+		}
 	}
 }
 .image {
@@ -321,6 +324,25 @@ h2 {
 		padding-left: 5px;
 		width: 31%; 
 		float: right;
+	}
+}
+@media screen and (max-width: 480px) {
+	.news-choice {
+		width: 75%;
+	}
+	.rubric {
+		// padding-left: 5px;
+		width: 100%; 
+		float: right;
+		img {
+			width: 40%;
+			float: left;
+		}
+		.text-rubric {
+			float: right;
+			// margin-left: 10px;
+			width: 58%;
+		}		
 	}
 }
 img {

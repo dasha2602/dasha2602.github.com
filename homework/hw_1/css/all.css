@@ -331,11 +331,11 @@ h2 {
   line-height: 1.6em;
 }
 @media screen and (max-width: 480px) {
-  .news-right {
+  .one-news .news-right {
     float: none;
     width: 95.12485136741974%;
   }
-  .note {
+  .one-news .note {
     margin-top: 0;
     float: none;
     width: 95.12485136741974%;
@@ -449,6 +449,23 @@ h2 {
     padding-left: 5px;
     width: 31%;
     float: right;
+  }
+}
+@media screen and (max-width: 480px) {
+  .news-choice {
+    width: 75%;
+  }
+  .rubric {
+    width: 100%;
+    float: right;
+  }
+  .rubric img {
+    width: 40%;
+    float: left;
+  }
+  .rubric .text-rubric {
+    float: right;
+    width: 58%;
   }
 }
 img {
