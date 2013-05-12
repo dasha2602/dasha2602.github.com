@@ -27,6 +27,11 @@ body {
 	@media screen and (max-width: 768px) {
 		font-size: 1.28571428571em; /*18:14;*/
 	}
+	@media screen and (max-width: 480px) {
+		font-size: 1.14285714286em; /*16:14;*/
+		letter-spacing: 0em;
+		// font-weight: normal;
+	}
 }
 .head-right {
 	float: right;
@@ -58,6 +63,9 @@ body {
 	left: 50%; 
 	margin-top: -8.52483321%; /*115px:1349px;*/
 	margin-left: -13.639733136%; /*184px:1349px;*/
+	@media screen and (max-width: 480px) {
+		width: 40%; /*368px:1349px;*/
+	}
 }
 form {
 	padding-top: 15.489130435%; /*57px:368px;*/
@@ -121,6 +129,9 @@ h2 {
 		display:inline-block; 
 		list-style-type: none;
     }
+    @media screen and (max-width: 480px) {
+		font-size: 1.14285714286em; /*16:14;*/
+	}
 } 
 .top-line-menu {
 	margin: 0;
@@ -220,6 +231,9 @@ h2 {
 		text-decoration: underline;
    	 	border-bottom:none; 
    	 	&:hover {text-decoration: none;}
+   	 	@media screen and (max-width: 768px) {
+			font-size: 1.14285714286em; /*16:14;*/
+		}
 	}
 }
 .news-full {
