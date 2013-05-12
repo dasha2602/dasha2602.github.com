@@ -24,25 +24,19 @@ body a:hover {
 }
 .head-left {
   font-weight: bold;
-  font-size: 1.71428571429em;
-  /*24:14;*/
-
+  font-size: 1.7142857142857142em;
   letter-spacing: 0.25em;
   padding: 16px 0 0 10px;
   float: left;
 }
 @media screen and (max-width: 768px) {
   .head-left {
-    font-size: 1.28571428571em;
-    /*18:14;*/
-  
+    font-size: 1.2857142857142858em;
   }
 }
 @media screen and (max-width: 480px) {
   .head-left {
-    font-size: 1.14285714286em;
-    /*16:14;*/
-  
+    font-size: 1.1428571428571428em;
     letter-spacing: 0em;
   }
 }
@@ -130,7 +124,7 @@ form {
 }
 @media screen and (max-width: 768px) {
   .content {
-    width: 80%;
+    width: 90%;
   }
 }
 @media screen and (max-width: 480px) {
@@ -152,31 +146,34 @@ form {
 }
 @media screen and (max-width: 768px) {
   .main {
-    font-size: 4.14285714286em;
-    /*58:14;*/
-  
+    font-size: 4.142857142857143em;
   }
 }
 @media screen and (max-width: 480px) {
   .main {
-    font-size: 3.42857142857em;
-    /*48:14;*/
-  
+    font-size: 3.4285714285714284em;
   }
 }
 h2 {
-  font-size: 1.71428571429em;
-  /*24:14;*/
-
+  font-size: 1.7142857142857142em;
   margin-top: -10px;
   padding-bottom: 9.151414309%;
   /*55px:601px;*/
 
 }
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 1.2857142857142858em;
+    padding-bottom: 5%;
+  }
+}
+@media screen and (max-width: 480px) {
+  h2 {
+    font-size: 1.2857142857142858em;
+  }
+}
 .list {
-  font-size: 1.28571428571em;
-  /*18:14;*/
-
+  font-size: 1.2857142857142858em;
   margin-top: 0;
   padding-top: 3.349282297%;
   /*28px:836px (ширина .list);*/
@@ -192,9 +189,7 @@ h2 {
 }
 @media screen and (max-width: 480px) {
   .list {
-    font-size: 1.14285714286em;
-    /*16:14;*/
-  
+    font-size: 1.1428571428571428em;
   }
 }
 .top-line-menu {
@@ -252,6 +247,37 @@ h2 {
 
   float: left;
 }
+.news-right {
+  float: right;
+  width: 71.46254459%;
+  /*601px:841px;*/
+
+  padding-top: 10px;
+}
+.news-right a {
+  font-size: 1.2857142857142858em;
+  font-weight: bold;
+  color: #000000;
+  display: inline;
+  text-decoration: underline;
+  border-bottom: none;
+}
+.news-right a:hover {
+  text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  .news-right a {
+    font-size: 1.1428571428571428em;
+  }
+}
+.news-full {
+  width: 75.125%;
+  /*601px:800px;*/
+
+  padding-bottom: 1.5%;
+  /*12px:800px;*/
+
+}
 .note {
   margin-top: 15.375%;
   /*123px:800px*/
@@ -265,13 +291,20 @@ h2 {
 }
 .note p {
   color: #808080;
-  font-size: 0.71428571429em;
-  /*10:14;*/
-
+  font-size: 0.7142857142857143em;
   font-family: Verdana;
   line-height: 1.6em;
-  /*16:10;*/
-
+}
+@media screen and (max-width: 480px) {
+  .news-right {
+    float: none;
+    width: 95.12485136741974%;
+  }
+  .note {
+    margin-top: 0;
+    float: none;
+    width: 95.12485136741974%;
+  }
 }
 .image {
   padding-top: 10px;
@@ -313,49 +346,12 @@ h2 {
 /*.marker1 {background:#ff6666; margin:0px; height:20px; width:65px; padding-top:2px;}
 .marker2 {background:#99cc66; margin:0px; height:24px; width:71px; padding-top:2px;}
 .marker3 {background:#6699cc; margin: 0px; height:23px; width:110px; padding-top:3px;}*/
-.news-right {
-  float: right;
-  width: 71.46254459%;
-  /*601px:841px;*/
-
-  padding-top: 10px;
-}
-.news-right a {
-  font-size: 1.28571428571em;
-  /*18:14;*/
-
-  font-weight: bold;
-  color: #000000;
-  display: inline;
-  text-decoration: underline;
-  border-bottom: none;
-}
-.news-right a:hover {
-  text-decoration: none;
-}
-@media screen and (max-width: 768px) {
-  .news-right a {
-    font-size: 1.14285714286em;
-    /*16:14;*/
-  
-  }
-}
-.news-full {
-  width: 75.125%;
-  /*601px:800px;*/
-
-  padding-bottom: 1.5%;
-  /*12px:800px;*/
-
-}
 .color-links a {
   color: #003366;
   text-decoration: underline;
   border-bottom-style: none;
   display: inline;
   font-size: 1em;
-  /*14:14;*/
-
   font-weight: normal;
 }
 .current a {
@@ -402,9 +398,23 @@ h2 {
   float: left;
 }
 .rubric p {
-  font-size: 0.85714285714em;
-  /*12:14;*/
-
+  font-size: 0.8571428571428571em;
+}
+@media screen and (max-width: 768px) {
+  .designation {
+    width: 12%;
+  }
+  .designation h4 {
+    width: 100%;
+  }
+  .news-choice {
+    width: 82%;
+  }
+  .rubric {
+    padding-left: 5px;
+    width: 31%;
+    float: right;
+  }
 }
 img {
   max-width: 100%;
@@ -493,7 +503,7 @@ footer.content {
 .sign {
   border-top: 1px  solid;
   padding-top: 15px;
-  font-size: 0.85714285714em;
+  font-size: 0.8571428571428571em;
   /*12:14;*/
 
 }
