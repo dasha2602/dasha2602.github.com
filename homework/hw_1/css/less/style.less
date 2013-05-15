@@ -53,8 +53,7 @@ body {
 	-webkit-filter:  blur(1px);
 }
 #login {
-	width: 27.279466271%; /*368px:1349px;*/
-	/*height: 230px;*/
+	width: (368/1349)*100%;
 	display: none;
 	background: #FFF;
 	position: absolute;
@@ -63,25 +62,31 @@ body {
 	left: 50%; 
 	margin-top: -8.52483321%; /*115px:1349px;*/
 	margin-left: -13.639733136%; /*184px:1349px;*/
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 600px) {
 		width: 40%; /*368px:1349px;*/
+	}
+	@media screen and (max-width: 375px) {
+		width: 45%; 
+	}
+	@media screen and (max-width: 320px) {
+		width: 50%; 
 	}
 }
 form {
-	padding-top: 15.489130435%; /*57px:368px;*/
-	padding-left: 17.663043478%; /*65px:368px;*/
+	padding-top: (57/368)*100%; 
+	padding-left: (65/368)*100%;
 	width: 100%;
 }
 .field {
     input {
 	    color: #666;
-		width: 65.489130435%; /*241px:368px;*/
-		margin-bottom: 5.163043478%; /*19px:368px;*/
+		width: (241/368)*100%;
+		margin-bottom: (19/368)*100%;
     }
 }
 .control {
 	margin-top: 5px;
-	margin-bottom: 15.760869565%; /*58px:368px;*/
+	margin-bottom: (58/368)*100%;
 	overflow: hidden;
 }
 #submit {
@@ -90,7 +95,7 @@ form {
 }
 /*--------------- article ----------------*/
 .content {
-	width: 62.342475908%; /*841px:1349px(100%)*/
+	width: (841/1349)*100%;
 	margin: 0 auto;
 	display: block;
 	@media screen and (max-width: 768px) {
@@ -99,10 +104,16 @@ form {
 	@media screen and (max-width: 480px) {
 		width: 90%; 
 	}
+	@media screen and (max-width: 320px) {
+		width: 97%; 
+	}
 }
 .title {
 	text-align: center;
-	padding-top: 12.485136742%; /*105px:841px;*/
+	padding-top: (105/841)*100%;
+	@media screen and (max-width: 320px) {
+		padding-top: 20%;
+	}
 }
 .main {
 	font: bold 5.14285714286em PTSerif; /*72:14;*/
@@ -113,11 +124,14 @@ form {
 	@media screen and (max-width: 520px) {
 		font-size: 48/14em;
 	}
+	@media screen and (max-width: 320px) {
+		font-size: 36/14em;
+	}
 }
 h2 {
 	font-size: 24/14em;
 	margin-top: -10px;
-	padding-bottom: 9.151414309%; /*55px:601px;*/
+	padding-bottom: (55/601)*100%;
 	@media screen and (max-width: 768px) {
 		font-size: 18/14em;
 		padding-bottom: 5%;
@@ -125,12 +139,15 @@ h2 {
 	@media screen and (max-width: 480px) {
 		font-size: 18/14em;
 	}
+	@media screen and (max-width: 480px) {
+		font-size: 16/14em;
+	}
 }
 .list {
 	font-size: 18/14em;
 	margin-top: 0;
-	padding-top: 3.349282297%; /*28px:836px (ширина .list);*/
-	padding-bottom: 13.516746411%; /*113px:836px (ширина .list);*/
+	padding-top: (28/836)*100%; /*836px (ширина .list)*/
+	padding-bottom: (113/836)*100%; /*836px (ширина .list)*/
 	padding-left: 5px;
 	li {
 		display:inline-block; 
@@ -139,11 +156,14 @@ h2 {
     @media screen and (max-width: 520px) {
 		font-size: 16/14em;
 	}
+	@media screen and (max-width: 320px) {
+		font-size: 14/14em;
+	}
 } 
 .top-line-menu {
 	// width: (350/1349)*100%;
 	margin: 0;
-	padding-bottom: 10.701545779%; /*90px:841px;*/
+	padding-bottom: (90/841)*100%;
 	padding-top: 20px;
 	margin-left: (242/841)*100%;
 	padding-left: 0;
@@ -165,32 +185,41 @@ h2 {
 		margin-left: (300/841)*100%;
 
 	}
+	@media screen and (max-width: 320px){
+		margin-left: (60/320)*100%;
+		//width: 100%;
+		padding-top: 60px;
+		li {
+			margin-right: 5px;
+			font-size: 14/14em;
+		}
+	}
 }
 .news {
 	margin: 0 auto;
 	width: 100%; /*841px*/
 	overflow: hidden;
-	padding-bottom: 4.399524376%; /*37px:841px;*/
+	padding-bottom: (37/841)*100%; 
 }
 .one-news {
 	border-bottom: 3px  solid #b1b1b1;
-	margin-left: 4.875148633%; /*41px:841px;*/
-	width: 95.124851367%; /*800px:841px;*/
+	margin-left: (41/841)*100%;
+	width: (800/841)*100%;
 	overflow: hidden;
 }
 .news2 {
-	padding-bottom: 2.497027348%; /*21px:841px;*/
+	padding-bottom: (21/841)*100%;
 }
 .news3 {
-	padding-bottom: 14.506539834%; /*122px:841px;*/
+	padding-bottom: (122/841)*100%;
 }
 .news-left {
-	width: 26.159334126%; /*220px:841px;*/
+	width: (220/841)*100%;
 	float: left;
 }
 .news-right {
 	float: right;
-	width: 71.46254459%; /*601px:841px;*/
+	width: (601/841)*100%;
 	padding-top: 10px;
 	a {
 		font-size: 18/14em;
@@ -203,16 +232,19 @@ h2 {
    	 	@media screen and (max-width: 768px) {
 			font-size: 16/14em;
 		}
+		@media screen and (max-width: 320px) {
+			font-size: 14/14em;
+		}
 	}
 }
 .news-full {
-	width: 75.125%; /*601px:800px;*/
-	padding-bottom: 1.5%; /*12px:800px;*/
+	width: (601/800)*100%;
+	padding-bottom: (12/800)*100%;
 }
 .note {
-	margin-top: 15.375%; /*123px:800px*/
+	margin-top: (123/800)*100%;
 	/*margin-top: 123px;*/
-	width: 22.375%; /*179px:800px;*/
+	width: (179/800)*100%;
 	float: left;
 	p {
 		color: #808080;
@@ -255,6 +287,9 @@ h2 {
 	text-align: center;
 	/*width:5.94530321%;*/
 	/*width: 4.81%;*/
+	/*@media screen and (max-width: 320px) {
+		font-size: 12/14em;
+	}*/
 }
 .marker1 {
 	background:#ff6666; 
@@ -280,6 +315,9 @@ h2 {
 	@media screen and (max-width: 480px) {
 		width: 90px; 
 	}
+	/*@media screen and (max-width: 320px) {
+		width: 75px; 
+	}*/
 }
 /*.marker1 {background:#ff6666; margin:0px; height:20px; width:65px; padding-top:2px;}
 .marker2 {background:#99cc66; margin:0px; height:24px; width:71px; padding-top:2px;}
@@ -308,11 +346,14 @@ h2 {
 }
 .designation {
 	font-weight: bold;
-	width: 23.543400713%; /*198px:841px;*/
+	width: (198/841)*100%;
 	float: left;
-	padding-left: 4.875148633%; /*41px:841px;*/
+	padding-left: (41/841)*100%;
 	h4 {
-		width: 58.585858586%; /*116px:198px*/
+		width: (116/198)*100%;
+		@media screen and (max-width: 480px) {
+			font-size: 12/14em;
+		}
 	}
 }
 .news-choice {
@@ -334,7 +375,6 @@ h2 {
 }
 @media screen and (max-width: 768px) {
 	.designation {
-		// width: 15%;
 		width: 12%;
 		// padding-left: 0;
 		h4 {
@@ -428,11 +468,11 @@ li {
 }*/
 /*-------------- footer -----------------*/
 footer.content {
-	padding-bottom: 6.078576723%; /*82px:1349px(т.к.родителем является окно)*/
+	padding-bottom: (82/1349)*100%; /*1349px(т.к.родителем является окно)*/
 	color: #8f8f8f;
 }
 .sign {
 	border-top:1px  solid;
 	padding-top: 15px;
-	font-size: 12/14em; /*12:14;*/
+	font-size: 12/14em;
 }
