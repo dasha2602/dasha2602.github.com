@@ -74,7 +74,13 @@ header {
     width: 100%;
 }
 .blur {
-	-webkit-filter:  blur(1px); //!!!!!!!!!!!!!!!!!!!!!!
+	-webkit-filter:  blur(1px);
+	-moz-filter: blur(1px);
+    -ms-filter: blur(1px);
+    -o-filter: blur(1px);
+    filter: blur(1px);
+	filter: progid:DXImageTransform.Microsoft.Blur(pixelRadius=1);
+	//filter: url(blur.svg#blur);
 }
 #login {
 	width: (368/1349)*100%;
@@ -87,13 +93,17 @@ header {
 	margin-top: -8.52483321%; /*115px:1349px;*/
 	margin-left: -13.639733136%; /*184px:1349px;*/
 	@media screen and (max-width: 640px) {
-		width: 40%; /*368px:1349px;*/
+	    width: 40%;
+		margin-top: -20%;
+		margin-left: -20%;
 	}
 	@media screen and (max-width: 375px) {
 		width: 45%; 
 	}
 	@media screen and (max-width: 320px) {
-		width: 50%; 
+		width: 60%; 
+		margin-top: -30%;
+		margin-left: -30%;
 	}
 }
 form {

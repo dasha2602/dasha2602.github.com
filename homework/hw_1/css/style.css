@@ -92,6 +92,11 @@ body a:hover {
 }
 .blur {
   -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -ms-filter: blur(1px);
+  -o-filter: blur(1px);
+  filter: blur(1px);
+  filter: progid:DXImageTransform.Microsoft.Blur(pixelRadius=1);
 }
 #login {
   width: 27.27946627131208%;
@@ -111,8 +116,8 @@ body a:hover {
 @media screen and (max-width: 640px) {
   #login {
     width: 40%;
-    /*368px:1349px;*/
-  
+    margin-top: -20%;
+    margin-left: -20%;
   }
 }
 @media screen and (max-width: 375px) {
@@ -122,7 +127,9 @@ body a:hover {
 }
 @media screen and (max-width: 320px) {
   #login {
-    width: 50%;
+    width: 60%;
+    margin-top: -30%;
+    margin-left: -30%;
   }
 }
 form {

@@ -1,23 +1,29 @@
-function addClass(el, cls) {
-    el.className += " " + cls;
-}
-
-function removeClass(el, cls) {
-    var re = new RegExp('(\\s|^)' + cls + '(\\s|$)')
-    el.className = el.className.replace(re, ' ')
-}
-
-window.onload = function() {
-    document.getElementById('openLogin').onclick = function() 
-    {
-        document.getElementById('login').style.display = 'block';
-        document.getElementById('dark').style.visibility = 'visible';
-        addClass(document.getElementById('page'), 'blur');
+jQuery(document).ready(function() {
+    function fHide(){
+        $('#login').fadeOut(200);
+        $('#dark').css("visibility", "hidden");
     }
-    document.getElementById('cancel').onclick = function() 
-    {
-        document.getElementById('login').style.display = 'none';
-        document.getElementById('dark').style.visibility = 'hidden';
-        removeClass(document.getElementById('page'), 'blur');
-    }
-}
+    $('#openLogin').on('click', function() {
+        $('#page').addClass('blur');
+        $('#dark').css('visibility', 'visible');
+        //$('#login').show();
+        //$('#login').show('scale');
+        //$('#login').animate({'top':'-10px'},100);
+        $('#login').fadeIn(200); 
+
+    });
+    $('#cancel').on('click', function(){
+        //$('#login').animate({'top':'-10px'},100);
+        fHide();
+        $('#page').removeClass('blur');
+    });
+     $('#submit').on('click', function(event) {
+        event.preventDefault();
+        fHide();
+    });
+     
+    //$('.main').text('dfgvd');
+    /*$("#box").on( "click", function() {
+        $( this ).css( "width", "+=200" );
+    });*/
+});
