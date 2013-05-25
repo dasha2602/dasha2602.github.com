@@ -167,10 +167,9 @@ body a:hover {
     margin-left: -30%;
   }
 }
-form {
+#login form {
   padding-top: 15.489130434782608%;
   padding-left: 17.66304347826087%;
-  width: 100%;
 }
 .field input {
   color: #666;
@@ -415,6 +414,69 @@ h2 {
   .note img {
     max-width: 100%;
   }
+}
+.comments {
+  width: 78.125%;
+  float: right;
+  border: 1px  solid #b1b1b1;
+  margin-bottom: 38px;
+  padding-left: 24px;
+  padding-bottom: 25px;
+  font-size: 0.8571428571428571em;
+}
+.comments h4 {
+  font-size: 1.5em;
+  font-weight: normal;
+}
+.comment-form {
+  margin-right: 24px;
+  padding-bottom: 20px;
+}
+.comment-form .field input,
+.comment-form textarea {
+  margin-bottom: 12px;
+  color: #666;
+}
+.comment-form .control {
+  margin: 0;
+}
+.comment-form input[type="text"] {
+  width: 40.099833610648915%;
+  height: 20px;
+}
+.comment-form textarea {
+  width: 99.00166389351082%;
+  height: 46px;
+}
+.comment-form textarea:focus {
+  height: 80px;
+}
+.comment-form input[type="submit"] {
+  float: right;
+  /*width: (146/601)*100%;*/
+  height: 26px;
+}
+.new-comment {
+  display: none;
+}
+.comment {
+  margin-right: 24px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #b1b1b1;
+}
+.comment .user_name {
+  font-weight: bold;
+}
+.comment .user_name span {
+  font-weight: normal;
+  color: #666;
+}
+.comment a {
+  text-decoration: underline;
+  border-bottom: none;
+}
+.answer {
+  margin-left: 50px;
 }
 @media screen and (max-width: 640px) {
   .one-news {
