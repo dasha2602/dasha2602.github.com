@@ -30,11 +30,15 @@ jQuery(document).ready(function() {
 			$('.field p').remove();
 			/*$comment = '<div class="comment"><div class="user_name">
 			<p>Дуб<span>&emsp;17:58, пятница, 25.05.2013</span></p></div>
-			<div class="user_message"><p>бурда</p></div><a href="#">Ответить</a></div>';*/
-			$('#add_comment').after($('.new-comment'));
+			<div class="user_message"><p>бурда</p></div><a href="#">Ответить</a></div>';*/		
 			$('.new-comment').show();
 			$('.new-comment .user_name p').text($('#name').val());
 			$('.new-comment .user_message p').text($('#comment').val());
+			
+			$('#add_comment').after($('.new-comment'));
+			//$('.answer').after($('.new-comment'));
+			$('#name').attr('value','Представьтесь, пожалуйста');
+			$('#comment').text('Введите текст сообщения...');
 		}	
 	});
 
@@ -48,11 +52,7 @@ jQuery(document).ready(function() {
 		$(this).after($('.comment-form'));
 		$('.comment-form').css('display', 'block')
 		        //.css('margin-left', '50px')
-		        .css('padding-top', '20px');
-
-		$('#add_comment').on('click', function(event) {
-
-		});        
+		        .css('padding-top', '20px');     
 
 	});
 

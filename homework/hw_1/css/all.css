@@ -456,9 +456,6 @@ h2 {
   /*width: (146/601)*100%;*/
   height: 26px;
 }
-.new-comment {
-  display: none;
-}
 .comment {
   margin-right: 24px;
   padding-bottom: 12px;
@@ -475,8 +472,27 @@ h2 {
   text-decoration: underline;
   border-bottom: none;
 }
+.new-comment {
+  display: none;
+}
+.first {
+  border-bottom: none;
+}
+.warning {
+  display: none;
+}
+.warning img {
+  float: left;
+}
+.warning p {
+  margin: 0;
+  color: #ff0000;
+}
 .answer {
   margin-left: 50px;
+}
+.answerer {
+  display: none;
 }
 @media screen and (max-width: 640px) {
   .one-news {

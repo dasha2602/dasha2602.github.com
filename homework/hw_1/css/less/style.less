@@ -348,9 +348,6 @@ h2 {
 	}
 	input[type="submit"] {float: right; /*width: (146/601)*100%;*/ height: 26px;}
 }
-.new-comment {
-	display: none;
-}
 .comment {
 	//width: (601/625)*100%;
 	margin-right: 24px;
@@ -365,9 +362,20 @@ h2 {
   		border-bottom: none;
 	}
 }
+.new-comment {display: none;}
+.first {border-bottom: none;}
+.warning {
+	display: none;
+	img {float: left;}
+	p {margin: 0; color: #ff0000;}
+}
 .answer {
 	//display: none;
 	margin-left: 50px;
+}
+.answerer {
+	display: none;
+	//margin-left: 50px;
 }
 @media screen and (max-width: 640px) {
 	.one-news {
