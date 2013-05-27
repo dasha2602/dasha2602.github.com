@@ -63,7 +63,8 @@ jQuery(document).ready(function() {
 		$('.new-comment').addClass('answer');
 	});
 
-	$('.comments a').on('click', function(){
+	$('.comments a').on('click', function(event){
+		event.preventDefault();
 		$('.warning').hide();
 		$('.new-comment').hide();
 		$(this).after($('.answerer'));
