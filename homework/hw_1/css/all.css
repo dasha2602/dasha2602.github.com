@@ -419,7 +419,7 @@ h2 {
   width: 78.125%;
   float: right;
   border: 1px  solid #b1b1b1;
-  margin-bottom: 38px;
+  margin-bottom: 6.08%;
   padding-left: 24px;
   padding-bottom: 25px;
   font-size: 0.8571428571428571em;
@@ -427,6 +427,21 @@ h2 {
 .comments h4 {
   font-size: 1.5em;
   font-weight: normal;
+}
+@media screen and (max-width: 640px) {
+  .comments {
+    width: 93%;
+  }
+  .comments h4 {
+    font-size: 1.3333333333333333em;
+  }
+}
+@media screen and (max-width: 320px) {
+  .comments {
+    width: 95%;
+    border: none;
+    border-top: 1px  solid #b1b1b1;
+  }
 }
 .comment-form {
   margin-right: 24px;
@@ -456,6 +471,11 @@ h2 {
   /*width: (146/601)*100%;*/
   height: 26px;
 }
+@media screen and (max-width: 320px) {
+  .comment-form input[type="text"] {
+    width: 99.00166389351082%;
+  }
+}
 .comment {
   margin-right: 24px;
   padding-bottom: 12px;
@@ -474,6 +494,7 @@ h2 {
 }
 .new-comment {
   display: none;
+  padding-top: 20px;
 }
 .first {
   border-bottom: none;
@@ -489,7 +510,7 @@ h2 {
   color: #ff0000;
 }
 .answer {
-  margin-left: 50px;
+  margin-left: 8.319467554076539%;
 }
 .answerer {
   display: none;

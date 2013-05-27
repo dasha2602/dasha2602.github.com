@@ -324,29 +324,42 @@ h2 {
 	width: (625/800)*100%;
 	float: right;
 	border: 1px  solid #b1b1b1;
-	margin-bottom: 38px;
+	margin-bottom: (38/625)*100%;
 	padding-left: 24px;
 	padding-bottom: 25px;
 	font-size: 12/14em;
-	h4 {font-size: 18/12em;font-weight: normal;}
+	h4 {font-size: 18/12em; font-weight: normal;}
+	@media screen and (max-width: 640px) {
+		width: 93%;
+		h4 {font-size: 16/12em;}
+	}
+	@media screen and (max-width:320px) {
+		width: 95%;
+		border: none;
+		//border-bottom: 1px  solid #b1b1b1;
+		border-top: 1px  solid #b1b1b1;
+	}
 }
 .comment-form {
 	//width: (601/625)*100%;
 	margin-right: 24px;
 	padding-bottom: 20px;
-	//input {color: #666;}
 	.field input,textarea {
 		margin-bottom: 12px;
 		color: #666;
 	}
 	.control {margin: 0; }
 	input[type="text"] {width: (241/601)*100%; height: 20px;}
+	//#name {border: 1px solid #ff0000;}
 	textarea {
 		width: (595/601)*100%; 
 		height: 46px;
 		&:focus {height: 80px;}
 	}
 	input[type="submit"] {float: right; /*width: (146/601)*100%;*/ height: 26px;}
+	@media screen and (max-width: 320px) {
+		input[type="text"] {width: (595/601)*100%;}
+	}
 }
 .comment {
 	//width: (601/625)*100%;
@@ -362,7 +375,7 @@ h2 {
   		border-bottom: none;
 	}
 }
-.new-comment {display: none;}
+.new-comment {display: none; padding-top: 20px;}
 .first {border-bottom: none;}
 .warning {
 	display: none;
@@ -370,12 +383,10 @@ h2 {
 	p {margin: 0; color: #ff0000;}
 }
 .answer {
-	//display: none;
-	margin-left: 50px;
+	margin-left: (50/601)*100%;
 }
 .answerer {
 	display: none;
-	//margin-left: 50px;
 }
 @media screen and (max-width: 640px) {
 	.one-news {
