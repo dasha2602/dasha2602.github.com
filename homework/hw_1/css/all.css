@@ -478,8 +478,6 @@ h2 {
 }
 .comment {
   margin-right: 24px;
-  padding-bottom: 12px;
-  border-bottom: 1px solid #b1b1b1;
 }
 .comment .user_name {
   font-weight: bold;
@@ -492,12 +490,16 @@ h2 {
   text-decoration: underline;
   border-bottom: none;
 }
-.new-comment {
-  display: none;
-  padding-top: 20px;
+.comment .link_ans {
+  border-bottom: 1px solid #b1b1b1;
+  padding-bottom: 12px;
 }
-.first {
+.comment .first {
   border-bottom: none;
+}
+.new-comment {
+  /*display: none;*/
+  padding-top: 20px;
 }
 .warning {
   display: none;
