@@ -6,6 +6,15 @@
 html {
   font-size: 100%; /*шрифт по умолчанию*/
 }
+header, 
+section, 
+footer, 
+article, 
+aside, 
+div,
+nav {
+	display: block;
+}
 body {
 	background: url(../images/fon.png);
 	font: normal 0.875em PTSans, sans-serif; /* 14:16; */
@@ -69,6 +78,11 @@ header {
     height: 100%;
     left: 0;
     opacity: 0.3;
+
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=30); /* IE 5.5+*/
+	-moz-opacity: 0.3; /* Mozilla 1.6 и ниже */
+	-khtml-opacity: 0.3; /* Konqueror 3.1, Safari 1.1 */
+
     position: fixed;
     top: 0;
     width: 100%;
