@@ -1,14 +1,59 @@
-
+.clearfix {
+    &:before, &:after {
+        content: " ";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+    *zoom: 1;
+}
+//----------------------------
 .wrapper {
+    &:extend(.clearfix all);
     width: 960px;
     margin: 0 auto;
-    background-color: gainsboro;
+    //background-color: gainsboro;
 }
 .header {
     &__title {
         text-align: center;
     }
 }
-.login-block {
+.login {
     text-align: center;
+    margin: 30px 0;
+}
+.friends {
+    display: none;
+    //background-color: aliceblue;
+    &__title {
+        text-align: center;
+        font-weight: normal;
+    }
+    &__list {
+        &:extend(.clearfix all);
+    }
+    &__item {
+        display: inline-block;
+        width: 20%;
+        &__i {
+            margin: 20px;
+            border: solid 1px #000;
+        }
+        &__image {
+            height: 150px;
+            overflow: hidden;
+            .photo {
+                width: 100%;
+            }
+        }
+    }
+}
+.logout {
+    float: right;
+    //cursor: pointer;
+//    &:hover {
+//        color: lighten(#000, 30%);
+//    }
 }

@@ -5,12 +5,53 @@
     <ignored path="glitch.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380192995220" ignored="false" />
-    <file path="/index.html" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380196274400" ignored="false" />
-    <file path="/dummy.xml" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380194065746" ignored="false" />
+    <file path="/index.html" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380263330877" ignored="false" />
+    <file path="/dummy.xml" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380283963080" ignored="false" />
     <file path="/style.css" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380193165307" ignored="false" />
     <file path="/all.less" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380193412391" ignored="false" />
-    <file path="/page.less" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380194689458" ignored="false" />
+    <file path="/page.less" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380269135627" ignored="false" />
     <file path="$PROJECT_DIR$/../ewes/application/layouts/scripts/cabinet.phtml" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380196013837" ignored="false" />
+    <file path="/main.js" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380268030776" ignored="false" />
+    <file path="/a.dummy" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380293007695" ignored="false" />
+    <file path="/page.html" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380262100180" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../ewes/application/views/scripts/teacher/topics.phtml" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380279829499" ignored="false" />
+    <file path="/topics.phtml" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380271940340" ignored="false" />
+    <file path="/journal.phtml" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380272446763" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../ewes/application/views/scripts/teacher/journal.phtml" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380279829499" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../ewes/markup/less/common.less" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380295280549" ignored="false" />
+    <file path="/common.less" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380295162375" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../ewes/markup/less/normalize.less" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380276371277" ignored="false" />
+    <file path="/normalize.less" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380274661982" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../ewes/application/layouts/scripts/cabinet.phtml" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380286221281" ignored="false" />
+    <file path="/cabinet.phtml" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380276947922" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../ewes/public/js/frontend/ei8.js" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380277868752" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../ewes/application/layouts/scripts/layout.phtml" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380281306210" ignored="false" />
+    <file path="/layout.phtml" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380275897446" ignored="false" />
+    <file path="/ei8.js" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380277563291" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../ewes/markup/less/schedule.less" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380291701194" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../ewes/application/controllers/TeacherController.php" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380283135271" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../ewes/application/layouts/scripts/timetable.phtml" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380281303107" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../ewes/application/layouts/scripts/cabinet_teacher.phtml" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380283030910" ignored="false" />
+    <file path="/cabinet_teacher.phtml" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380285188155" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../ewes/application/layouts/scripts/cabinet2.phtml" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380286197271" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../ewes/markup/less/main.less" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380291419251" ignored="false" />
+    <file path="/main.less" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380284854548" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../ewes/public/css/styles.css" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380293538419" ignored="false" />
+    <file path="/cabinet2.phtml" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380283978981" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../ewes/application/views/scripts/pupil/diary.phtml" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380287362874" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../ewes/markup/less/diary.less" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380285955396" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../ewes/application/controllers/PupilController.php" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380286153084" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../ewes/markup/less/button.less" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380294448561" ignored="false" />
+    <file path="/button.less" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380287251995" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../ewes/application/layouts/scripts/login.phtml" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380287812631" ignored="false" />
+    <file path="/schedule.less" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380291701194" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../ewes/application/views/scripts/timetable/class.phtml" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380291106295" ignored="false" />
+    <file path="/class.phtml" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380291075739" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../ewes/application/views/scripts/timetable/teacher.phtml" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380290283259" ignored="false" />
+    <file path="/teacher.phtml" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380289746768" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../ewes/markup/less/preboot.less" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380291649714" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../ewes/markup/less/teacher.less" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380291728948" ignored="false" />
+    <file path="/teacher.less" changelist="085d9548-c7ff-4bbe-83dc-88c39f84c32b" time="1380291728948" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,21 +71,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="33" selection-start="858" selection-end="858" vertical-scroll-proportion="0.050868485">
-              <folding>
-                <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="26" column="59" selection-start="923" selection-end="923" vertical-scroll-proportion="-16.25">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.less" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="90" column="30" selection-start="2686" selection-end="2686" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/less/page.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="1" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
+            <state line="28" column="34" selection-start="471" selection-end="471" vertical-scroll-proportion="0.5060241">
               <folding />
             </state>
           </provider>
@@ -53,8 +101,12 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="363" column="21" selection-start="7471" selection-end="7471" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="409" column="0" selection-start="8086" selection-end="8086" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1380269422000" expanded="true" signature="7377:7404" placeholder="{...}" />
+                <marker date="1380269422000" expanded="true" signature="7497:7519" placeholder="{...}" />
+                <marker date="1380269422000" expanded="true" signature="7598:7637" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,15 +133,17 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/less/all.less" />
-        <option value="$PROJECT_DIR$/less/page.less" />
+        <option value="$PROJECT_DIR$/page.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/less/page.less" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="637" />
+    <option name="x" value="613" />
     <option name="y" value="28" />
-    <option name="width" value="1252" />
+    <option name="width" value="1276" />
     <option name="height" value="978" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -206,15 +260,35 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="637" y="28" width="1252" height="978" extended-state="0" />
+    <frame x="613" y="28" width="1276" height="978" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32983682" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1708126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18455285" sideWeight="0.67016315" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -292,10 +366,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="1793" selection-end="1793" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="30" column="33" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -309,7 +381,43 @@
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="363" column="21" selection-start="7471" selection-end="7471" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1380269422000" expanded="true" signature="7377:7404" placeholder="{...}" />
+            <marker date="1380269422000" expanded="true" signature="7497:7519" placeholder="{...}" />
+            <marker date="1380269422000" expanded="true" signature="7598:7637" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/all.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="11" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="0" selection-start="1793" selection-end="1793" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/page.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="1" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="363" column="21" selection-start="7471" selection-end="7471" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1380269422000" expanded="true" signature="7377:7404" placeholder="{...}" />
+            <marker date="1380269422000" expanded="true" signature="7497:7519" placeholder="{...}" />
+            <marker date="1380269422000" expanded="true" signature="7598:7637" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -339,24 +447,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="363" column="21" selection-start="7471" selection-end="7471" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="409" column="0" selection-start="8086" selection-end="8086" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1380269422000" expanded="true" signature="7377:7404" placeholder="{...}" />
+            <marker date="1380269422000" expanded="true" signature="7497:7519" placeholder="{...}" />
+            <marker date="1380269422000" expanded="true" signature="7598:7637" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/page.less">
+    <entry file="file://$PROJECT_DIR$/page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="1" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
+        <state line="14" column="7" selection-start="423" selection-end="423" vertical-scroll-proportion="0.2605459">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="33" selection-start="858" selection-end="858" vertical-scroll-proportion="0.050868485">
-          <folding>
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="26" column="59" selection-start="923" selection-end="923" vertical-scroll-proportion="-16.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="30" selection-start="2686" selection-end="2686" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/page.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="34" selection-start="471" selection-end="471" vertical-scroll-proportion="0.5060241">
+          <folding />
         </state>
       </provider>
     </entry>

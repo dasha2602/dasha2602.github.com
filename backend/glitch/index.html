@@ -3,33 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <title>Glitch</title>
+    <!--<base href="Users/dasha/Projects/dasha2602.github.com/backend/glitch" target="_blank" />-->
+    <!--<base href="http://localhost/Users/dasha/Projects/dasha2602.github.com/backend/glitch/"/>-->
     <link rel="stylesheet" href="css/style.css">
     <script src="http://vk.com/js/common.js"></script>
     <script src="http://vk.com/js/api/openapi.js?3"></script>
     <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 
 </head>
 <body>
+<div id="vk_api_transport"></div>
 <div class="wrapper">
     <header class="header">
         <h1 class="header__title">Глитч-арт</h1>
     </header>
 
-    <div class="login-block">
-        <button id="vk_login" style="margin: 0 auto 20px auto;" onclick="doLogin();">Войти</button>
+    <div class="login">
+        <button id="vk_login">Войти</button>
+    </div>
+
+    <div class="friends">
+        <button id="vk_logout" class="logout">Выйти</button>
+        <h4 class="friends__title">Привет, <span id="userName"></span>!</h4>
+
+        <article class="friends__list">
+
+        </article>
     </div>
 
 </div>
 
-    <script type="text/javascript">
-        VK.init({apiId: 3897718, onlyWidgets: true});
-    </script>
-
 <!--<script type="text/javascript">-->
-    <!--window.vkAsyncInit = function () {-->
-        <!--VK.init({-->
-            <!--apiId: 3897718-->
-        <!--});-->
+<!--window.vkAsyncInit = function () {-->
+<!--VK.init({-->
+<!--apiId: 3897718-->
+<!--});-->
 
 <!--//        VK.Auth.getLoginStatus(function (response) {-->
 <!--//            if (response.session) {-->
@@ -52,8 +61,8 @@
 <!--//        });-->
 
 
-        <!--VK.UI.button('vk_login');-->
-    <!--};-->
+<!--VK.UI.button('vk_login');-->
+<!--};-->
 <!--//    setTimeout(function () {-->
 <!--//        var el = document.createElement('script');-->
 <!--//        el.type = 'text/javascript';-->
@@ -63,14 +72,6 @@
 <!--//    }, 0);-->
 <!--</script>-->
 
-<script type="text/javascript">
-    function doLogin() {
-        VK.Auth.login(
-                null,
-                VK.access.FRIENDS | VK.access.PHOTOS | VK.access.VIDEO
-        );
-    }
-</script>
 
 </body>
 </html>

@@ -352,14 +352,58 @@ table {
  * Open sourced under MIT license by @mdo.
  * Some variables and mixins from Bootstrap (Apache 2 license).
  */
+.clearfix,
+.wrapper,
+.friends__list {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after,
+.wrapper:before,
+.wrapper:after,
+.friends__list:before,
+.friends__list:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after,
+.wrapper:after,
+.friends__list:after {
+  clear: both;
+}
 .wrapper {
   width: 960px;
   margin: 0 auto;
-  background-color: gainsboro;
 }
 .header__title {
   text-align: center;
 }
-.login-block {
+.login {
   text-align: center;
+  margin: 30px 0;
+}
+.friends {
+  display: none;
+}
+.friends__title {
+  text-align: center;
+  font-weight: normal;
+}
+.friends__item {
+  display: inline-block;
+  width: 20%;
+}
+.friends__item__i {
+  margin: 20px;
+  border: solid 1px #000;
+}
+.friends__item__image {
+  height: 150px;
+  overflow: hidden;
+}
+.friends__item__image .photo {
+  width: 100%;
+}
+.logout {
+  float: right;
 }
