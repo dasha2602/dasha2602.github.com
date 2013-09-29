@@ -189,6 +189,9 @@ body a:hover {
   padding-top: 15.489130434782608%;
   padding-left: 17.66304347826087%;
 }
+.field label {
+  display: none;
+}
 .field input {
   color: #666;
   width: 65.48913043478261%;

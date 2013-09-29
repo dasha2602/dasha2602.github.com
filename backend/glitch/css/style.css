@@ -391,18 +391,21 @@ table {
 }
 .friends__item {
   display: inline-block;
+  float: left;
   width: 20%;
 }
 .friends__item__i {
-  margin: 20px;
+  margin: 10px;
   border: solid 1px #000;
 }
 .friends__item__image {
   height: 150px;
+  line-height: 145px;
   overflow: hidden;
 }
 .friends__item__image .photo {
   width: 100%;
+  vertical-align: middle;
 }
 .logout {
   float: right;

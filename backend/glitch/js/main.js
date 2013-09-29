@@ -102,9 +102,9 @@ function onGetInitData(data) {
         for (i = 0, j = r.friends.length; i < j; i++) {
             listFriends += '<div class="friends__item">' +
                 '<div class="friends__item__i">' +
-//                '<a href="http://vk.com/id'+r.friends[i]['uid']+'">' +
+               '<a href="http://vk.com/id'+r.friends[i]['uid']+'">' +
                 '<div class="friends__item__image"><img class="photo" src="'+r.friends[i]['photo_big']+'"></div>' +
-//                '</a>' +
+               '</a>' +
                 '</div>' +
                 '</div>';
         }
