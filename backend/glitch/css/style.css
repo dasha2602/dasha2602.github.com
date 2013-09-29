@@ -400,12 +400,10 @@ table {
 }
 .friends__item__image {
   height: 150px;
-  line-height: 145px;
   overflow: hidden;
 }
 .friends__item__image .photo {
-  width: 100%;
-  vertical-align: middle;
+  min-height: 100%;
 }
 .logout {
   float: right;
