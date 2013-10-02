@@ -354,6 +354,7 @@ table {
  */
 .clearfix,
 .wrapper,
+.header,
 .friends__list {
   *zoom: 1;
 }
@@ -361,6 +362,8 @@ table {
 .clearfix:after,
 .wrapper:before,
 .wrapper:after,
+.header:before,
+.header:after,
 .friends__list:before,
 .friends__list:after {
   content: " ";
@@ -368,6 +371,7 @@ table {
 }
 .clearfix:after,
 .wrapper:after,
+.header:after,
 .friends__list:after {
   clear: both;
 }
@@ -375,12 +379,62 @@ table {
   width: 960px;
   margin: 0 auto;
 }
+.btn {
+  border: none;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  width: 68px;
+  height: 30px;
+  line-height: 30px;
+  -webkit-font-smoothing: antialiased;
+  border-radius: 3px;
+  border-bottom: 1px solid #121212;
+  background: #454545;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(top, #454545 0%, #404040 29%, #383838 52%, #2d2d2d 100%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #454545), color-stop(29%, #404040), color-stop(52%, #383838), color-stop(100%, #2d2d2d));
+  /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top, #454545 0%, #404040 29%, #383838 52%, #2d2d2d 100%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top, #454545 0%, #404040 29%, #383838 52%, #2d2d2d 100%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(top, #454545 0%, #404040 29%, #383838 52%, #2d2d2d 100%);
+  /* IE10+ */
+
+  background: linear-gradient(to bottom, #454545 0%, #404040 29%, #383838 52%, #2d2d2d 100%);
+  /* W3C */
+
+}
+.btn_logout {
+  float: right;
+}
+.btn:hover {
+  background: #575757;
+}
+.btn:active {
+  background: #383838;
+}
+.header {
+  background-color: aliceblue;
+  margin-bottom: 20px;
+}
 .header__title {
   text-align: center;
+  font-size: 48px;
 }
-.login {
+.header__panel {
   text-align: center;
   margin: 30px 0;
+}
+.header__panel .main-panel {
+  display: none;
 }
 .friends {
   display: none;
@@ -405,6 +459,10 @@ table {
 .friends__item__image .photo {
   min-height: 100%;
 }
-.logout {
-  float: right;
+.glitch {
+  text-align: right;
+}
+.example,
+.result {
+  text-align: center;
 }

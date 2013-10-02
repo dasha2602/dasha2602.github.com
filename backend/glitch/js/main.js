@@ -2,12 +2,6 @@ jQuery(document).ready(function () {
 
     "use strict";
 
-    var baseURL = window.location.toString();
-
-    console.log('baseURL: ' + baseURL);
-    console.log('hostname: ' + window.location.toString());
-    console.log('search: ' + window.location.search);
-
     VK.init({apiId: 3899516});
 
     $('#vk_login').on('click', function () {
@@ -17,61 +11,25 @@ jQuery(document).ready(function () {
         doLogout();
     });
 
-//    VK.Auth.getLoginStatus(function(response) {
-//        if (response.session) {
-//            //window.location = baseURL + '?op=main&page=auth';
-//            console.log('it is ok');
-//            getInitData();
-//        } else {
-//            VK.UI.button('vk_login');
-//        }
-//    });
-
     VK.Observer.subscribe('auth.login', function (response) {
-        //window.location = '?op=main&page=auth';
-        console.log('login');
         getInitData();
-
-        // var user = API.getProfiles({uids: API.getVariable({key: 1280})});
-        //var user = API.isAppUser();
-
-//        console.log(response.me.first_name + ' ' + response.me.last_name);
-
-//        $('#userName').text(response.me.first_name + ' ' + response.me.last_name);
-
-        //$('.friends').append('<p>' + user + '</p>');
     });
 
     VK.Observer.subscribe('auth.logout', function() {
-        console.log('logout');
-        $('.login').show();
+        $('.start-panel').show();
+        $('.main-panel').hide();
         $('.friends').hide();
     });
 
-//    VK.Auth.getLoginStatus(function(response) {
-//        if (response.session) {
-//            //window.location = baseURL + '?op=main&page=auth';
-//            console.log('it is ok');
-//        } else {
-//            VK.UI.button('vk_login');
-//        }
-//    });
-//    VK.Observer.subscribe('auth.login', function(response) {
-//        window.location = '?op=main&page=auth';
-//    });
-//    VK.Observer.subscribe('auth.statusChange', function(response) {
-//        //console.log('statusChange');
-//    });
-//    VK.Observer.subscribe('auth.sessionChange', function(r) {
-//        //console.log('sessionChange');
-//    });
+    $('#btnGlitch').on('click', function() {
+        $(document).glitch();
+    });
 
 });
 
 function getInitData() {
     var code;
     code = 'return {';
-
     code += 'me: API.getProfiles({uids: API.getVariable({key: 1280}), fields: "photo"})[0]';
     code += ',friends: API.getProfiles({uids: API.friends.get(), fields: "photo_big"})';
     //code += ',friends: API.getProfiles({uids: API.getAppFriends(), fields: "photo"})';
@@ -85,13 +43,12 @@ function onGetInitData(data) {
     if (data.response) {
         r = data.response;
 
-        $('.login').hide();
+        $('.start-panel').hide();
+        $('.main-panel').show();
         $('.friends').show();
 
-        /* Insert user info */
-        console.log(data);
-        console.log(r.status);
-
+        //console.log(data);
+        //console.log(r.status);
         if (r.me) {
             $('#userName').text(r.me.first_name + ' ' + r.me.last_name);
         }
@@ -99,7 +56,9 @@ function onGetInitData(data) {
         /* Insert friends */
 
         var listFriends = '';
-        for (i = 0, j = r.friends.length; i < j; i++) {
+        //j = r.friends.length;
+        for (i = 0, j = 20; i < j; i++) {
+            //if (i >= 12) break;
             listFriends += '<div class="friends__item">' +
                 '<div class="friends__item__i">' +
                '<a href="http://vk.com/id'+r.friends[i]['uid']+'">' +
