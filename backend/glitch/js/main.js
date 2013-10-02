@@ -19,6 +19,7 @@ jQuery(document).ready(function () {
         $('.start-panel').show();
         $('.main-panel').hide();
         $('.friends').hide();
+        $('.temp').show();
     });
 
     $('#btnGlitch').on('click', function() {
@@ -46,6 +47,7 @@ function onGetInitData(data) {
         $('.start-panel').hide();
         $('.main-panel').show();
         $('.friends').show();
+        $('.temp').hide();
 
         //console.log(data);
         //console.log(r.status);
