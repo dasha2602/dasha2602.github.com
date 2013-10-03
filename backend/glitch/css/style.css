@@ -352,27 +352,31 @@ table {
  * Open sourced under MIT license by @mdo.
  * Some variables and mixins from Bootstrap (Apache 2 license).
  */
-.clearfix,
-.wrapper,
-.header,
-.friends__list {
+su.clearfix,
+su.wrapper,
+su.header,
+su.friends__list,
+su.temp {
   *zoom: 1;
 }
-.clearfix:before,
-.clearfix:after,
-.wrapper:before,
-.wrapper:after,
-.header:before,
-.header:after,
-.friends__list:before,
-.friends__list:after {
+su.clearfix:before,
+su.clearfix:after,
+su.wrapper:before,
+su.wrapper:after,
+su.header:before,
+su.header:after,
+su.friends__list:before,
+su.friends__list:after,
+su.temp:before,
+su.temp:after {
   content: " ";
   display: table;
 }
-.clearfix:after,
-.wrapper:after,
-.header:after,
-.friends__list:after {
+su.clearfix:after,
+su.wrapper:after,
+su.header:after,
+su.friends__list:after,
+su.temp:after {
   clear: both;
 }
 .wrapper {

@@ -22,7 +22,7 @@ jQuery(document).ready(function () {
         $('.temp').show();
     });
 
-    $('#btnGlitch').on('click', function() {
+    $('#btnGlitch2').on('click', function() {
         $(document).glitch();
     });
 
