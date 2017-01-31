@@ -19,3 +19,15 @@ body {
 .main-title span {
     color: #be1521;
 }
+
+.theme-title {
+    font-size: 1.1rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: .5rem 0;
+}
+
+.theme-title span {
+    font-size: 1rem;
+    text-transform: lowercase;
+}
