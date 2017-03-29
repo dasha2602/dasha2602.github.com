@@ -1,4 +1,7 @@
 /application/configs/application.ini
 /nbproject
-/.idea
+.idea
 .DS_Store
+node_modules
+
+learnjs/example
